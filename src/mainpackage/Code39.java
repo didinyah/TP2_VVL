@@ -28,7 +28,7 @@ public class Code39 {
 			}
 		}
 
-		// ON AJOUTE LES EETOILES
+		// ON AJOUTE LES ETOILES
 
 		// On récupère la longueur de la chaine rentrée
 		
