@@ -108,7 +108,7 @@ public class TestCode39 extends TestCase {
 
 	// On passe aux tests avec la fonction Code39.rendreConforme2 qui rajoute le caractère à la fin selon un modulo
 
-	// On vérifie les chaines simples avec uniquement des caracteres alpha numériques
+	// On vérifie les chaines simples avec uniquement des caractères alpha numériques
 	public void testConforme2AlphaNum() throws Exception {
 
 		String chaine;
