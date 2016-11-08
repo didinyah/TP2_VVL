@@ -41,7 +41,7 @@
     <target name="build-subprojects"/>
     <target depends="init" name="build-project">
         <echo message="${ant.project.name}: ${ant.file}"/>
-        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}" srcdir="src/" classpath="C:/Users/Utilisateur/.p2/pool/plugins/org.junit_4.12.0.v201504281640" >
             <src path="src"/>
             <src path="."/>
             <exclude name="src/"/>
