@@ -8,7 +8,6 @@ public class Code39 {
 		int longueurChaine = chaine.length();
 		
 		// ON SUPPRIME LES CARACTERES INTERDITS et ON MET TOUT EN UPPER
-
 		String chaineNettoyee = "";
 		int j=0;
 		for(int i=0; i<longueurChaine; i++) {
